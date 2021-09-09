@@ -1,2 +1,2 @@
 # neoG-liveclass3-html-css
- This is a wensite for my personal portfolio.
+ This is a website for my personal portfolio.
