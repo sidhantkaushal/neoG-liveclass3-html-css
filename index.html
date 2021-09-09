@@ -1,39 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <link href="styles.css" rel="stylesheet" >
 </head>
+
 <body>
     <h1>Sidhant Kaushal's componet library.</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
 
     <hr>
 
     <h2>@Typography</h2>
-     <h1>This is the biggest heading.</h1>
-     <h2>This is the second biggest heading.</h2>
-     <p>This is some normal text. Its free flowing and will wrap at the end like a paragraph.</p>
-     <small>This is for relatively small text.</small>
-     
-     <hr> 
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest heading.</h2>
+    <p>This is some normal text. Its free flowing and will wrap at the end like a paragraph.</p>
+    <small>This is for relatively small text.</small>
 
-     <h2>@container</h2>
+    <hr>
 
-     <h3>fluid container</h3>
-     <div>This is a fluid container and it will go till the end of the page.</div>
+    <h2>@container</h2>
 
-     <h3>center contanier</h3>
-     <div>This is a centered container and it will go till the specified width.</div>
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container and it will go till the end of the page.</div>
+
+    <h3>center contanier</h3>
+    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
+
+    <hr>
+
+    <h2>Links</h2>
+
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondry" href="/">Secondry link</a>
+
+    <hr>
+
+    <h3>unordered list</h3>
+    <p>This list will not have the bullets.</p>
+
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>  
+
+    <h3>Unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline item two</li>
+        <li class="list-item-inline">Inline item three</li>
+    </ul>
+
+    <h3>Reverse ordered list</h3>
+    <ol reversed >
+        <li>eggs</li>
+        <li>bread</li>
+        <li>milk</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Iamdeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>@ header</h2>
+
+    <header>
+        <img src="https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-1/p320x320/199678855_117324290589838_1964341035798487051_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cY8HqpZYMkUAX-nKM9b&_nc_oc=AQkAv16NGTxBKSHaAha1s89_DdfbHj_AjfnPOaG4Q_niYBcD96EDhsROKF8m3C1bFjo&_nc_ht=scontent.fdel5-1.fna&oh=eeac31ee4c0b22cc101f5354fc622590&oe=61558F43"
+            alt="">
+        <h1>Hedaing inside hero.</h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section>
+        <h3>white section</h3>
+        <p>This will have white background.</p>
+    </section>
+
+    <section>
+        <h3>off white section</h3>
+        <p>This will have gray background.</p>
+    </section>
     
-     <hr>
-     
-     <h2>Links</h2>
+    <h2>@footer</h2>
+    
+    <footer>
+        <div>Some small heading in footer</div>
+        <ul>
+            <li>Socialline1</li>
+            <li>Socialline2</li>
+            <li>Socialline3</li>
+        </ul>
+    </footer>
 
-     <a href="/">Primary link</a>
-     <a href="/">Secondry link</a>
+    <div style="height:30vh">
+
+    </div>
+
+
 
 </body>
-</html> 
+
+</html>
