@@ -22,6 +22,10 @@ body{
     margin: auto;
 }
 
+.margin-md{
+    margin:2rem;
+}
+
 /** links **/
  .link{
      text-decoration: none;
